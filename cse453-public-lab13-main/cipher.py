@@ -67,8 +67,14 @@ class KeycodeCipher:
 
     def get_pseudocode(self):
         pc = "insert the encryption pseudocode\n"
-        pc += "insert the decryption pseudocode\n"
-        return pc
+        # Inverse_Keycode = scramble Keycode
+        # New_inverse = unscramble keycode 
+        # for {
+            # if 1 < 2  scramble code
+            # else: 2 > 1 unscramble code 
+        # }
+    pc += "insert the decryption pseudocode\n"
+    return pc
 
 def main():
     keycode = KeycodeCipher()
